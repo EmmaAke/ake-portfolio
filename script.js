@@ -36,3 +36,10 @@ darkModeToggle.addEventListener('change', () => {
   body.classList.toggle('dark-mode');
 });
 
+//function to update last modified date
+document.addEventListener("DOMContentLoaded", function () {
+    var lastUpdateElement = document.getElementById("last-update");
+    var currentDate = new Date();
+    var formattedDate = currentDate.toLocaleString();
+    lastUpdateElement.textContent = "Last Update: " + formattedDate;
+  });
