@@ -209,7 +209,7 @@ body.dark-mode {
             z-index: 9999; /* Ensure the button appears above other elements */
           }
 
-ul.demo{
+ul.footer{
     list-style-type: none;
     margin: 0;
     padding: 0;
