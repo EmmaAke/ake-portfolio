@@ -208,3 +208,9 @@ body.dark-mode {
             right: 20px; /* Adjust the distance from the right as needed */
             z-index: 9999; /* Ensure the button appears above other elements */
           }
+
+ul.demo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
